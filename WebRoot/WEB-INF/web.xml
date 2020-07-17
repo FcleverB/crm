@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>W-CRM</display-name>
+  <servlet>
+    <servlet-name>DepartmentServlet</servlet-name>
+    <servlet-class>com.fc.servlet.DepartmentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmployeeServlet</servlet-name>
+    <servlet-class>com.fc.servlet.EmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PositionServlet</servlet-name>
+    <servlet-class>com.fc.servlet.PositionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RandomServlet</servlet-name>
+    <servlet-class>com.fc.servlet.RandomServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DutyServlet</servlet-name>
+    <servlet-class>com.fc.servlet.DutyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClientServlet</servlet-name>
+    <servlet-class>com.fc.servlet.ClientServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HomeServlet</servlet-name>
+    <servlet-class>com.fc.servlet.HomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BarginServlet</servlet-name>
+    <servlet-class>com.fc.servlet.BarginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OwnServlet</servlet-name>
+    <servlet-class>com.fc.servlet.OwnServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PaymentServlet</servlet-name>
+    <servlet-class>com.fc.servlet.PaymentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AreaServlet</servlet-name>
+   	<servlet-class>com.fc.servlet.AreaServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>DepartmentServlet</servlet-name>
+    <url-pattern>/servlet/DepartmentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeServlet</servlet-name>
+    <url-pattern>/servlet/EmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PositionServlet</servlet-name>
+    <url-pattern>/servlet/PositionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RandomServlet</servlet-name>
+    <url-pattern>/random.jpg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DutyServlet</servlet-name>
+    <url-pattern>/servlet/DutyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClientServlet</servlet-name>
+    <url-pattern>/servlet/ClientServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HomeServlet</servlet-name>
+    <url-pattern>/servlet/HomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BarginServlet</servlet-name>
+    <url-pattern>/servlet/BarginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OwnServlet</servlet-name>
+    <url-pattern>/servlet/OwnServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PaymentServlet</servlet-name>
+    <url-pattern>/servlet/PaymentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AreaServlet</servlet-name>
+    <url-pattern>/area</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

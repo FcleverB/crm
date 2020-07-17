@@ -1,0 +1,305 @@
+/*去除留白*/
+
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ol,
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*整体居中，字体初始大小*/
+
+body {
+	text-align: center;
+}
+
+
+/*a标签下划线去除*/
+
+a {
+	text-decoration: none;
+}
+
+
+/*li标签前面的点去掉*/
+
+li {
+	list-style: none;
+}
+
+
+/*login.html*/
+
+.logo {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	margin-left: 100px;
+	margin-top: 0px;
+}
+
+.logincenter {
+	height: 830px;
+	background-color: #93BDD3;
+	background: url(../images/logincenter.jpg) no-repeat;
+	background-size: cover;
+	/*处理不太好*/
+}
+
+.loginbuttom {
+	height: 72px;
+	background-color: #426374;
+	font-size: 16px;
+}
+
+#loginbuttom_buttom {
+	color: white;
+}
+
+.logincenter_box {
+	position: absolute;
+	margin-top: 225px;
+	margin-left: 900px;
+	width: 692px;
+	height: 336px;
+	background: url(../images/logininfo.png) no-repeat;
+}
+
+.logincenter_box ul li:first-child {
+	margin-top: 70px;
+	margin-left: 100px;
+}
+
+.logincenter_box ul li:nth-child(2) {
+	margin-top: 10px;
+	margin-left: 100px;
+}
+
+.u,
+.p {
+	text-align: left;
+	width: 400px;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 180px;
+}
+
+.loginpwd,
+.loginuser {
+	font-size: 18px;
+	width: 300px;
+	height: 40px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.userimg {
+	position: absolute;
+	src: url(../images/user.png);
+	height: 30px;
+	width: 30px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.pwdimg {
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.y {
+	text-align: left;
+	background-image: url(../images/yzmbg.png);
+	width: 300px;
+	height: 40px;
+	margin-left: 330px;
+	margin-top: 20px;
+}
+
+.loginyzm {
+	position: absolute;
+	margin-left: 45px;
+	margin-top: 1px;
+	height: 36px;
+	width: 153px;
+	border: 1px #3C95C8;
+}
+
+.yzmimg {
+	position: absolute;
+	margin-left: 199px;
+	height: 40px;
+	width: 103px;
+}
+
+.loginbtn {
+	background-image: url(../images/buttonbg.png);
+	margin-left: 260px;
+	margin-top: 20px;
+	height: 40px;
+	width: 110px;
+	color: #fff;
+}
+
+
+/*main.html*/
+
+
+/*top.html*/
+
+.top {
+	background-image: url(../images/topbg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.topleft {
+	height: 105px;
+	width: 200px;
+}
+
+.topleft img:nth-child(2) {
+	position: absolute;
+	width: 300px;
+	height: 35px;
+	margin-left: 60px;
+	margin-top: 40px;
+}
+
+.topleft img:nth-child(1) {
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	margin-left: -120px;
+	margin-top: 5px;
+}
+
+.topright {
+	float: right;
+	width: 300px;
+	height: 200px;
+	margin-top: -100px;
+}
+
+.helpimg,
+.exitimg {
+	width: 25px;
+	height: 25px;
+	margin-top: 10px;
+}
+
+.topright ul li a:nth-child(1) {
+	font-size: 25px;
+	width: 30px;
+	margin-right: -100px;
+}
+
+.topright ul li a:nth-child(2) {
+	font-size: 25px;
+	width: 30px;
+	margin-right: -30px;
+}
+
+.uimg {
+	position: absolute;
+	margin-left: -200px;
+	width: 150px;
+	height: 75px;
+	margin-top: 10px;
+}
+.user{
+	 width: 90px;
+	 height: 30px;
+	 position: absolute;
+	 margin-top:25px;
+	 margin-left: -20px;
+	 font-size:30px;
+}
+.rapid{
+	margin-left: -1200px;
+	width:75px;
+	height: 75px;
+	position: absolute;
+}
+.f{
+	margin-left: -1050px;
+	margin-top: 70px;
+	width:75px;
+	height: 75px;
+	position: absolute;
+	font-size:16px;
+	color: black;
+}
+.rapid1{
+	margin-left: -1075px;
+	width:75px;
+	height: 75px;
+	position: absolute;
+}
+.f1{
+	margin-left: -925px;
+	margin-top: 70px;
+	width:75px;
+	height: 75px;
+	position: absolute;
+	font-size:16px;
+	color: black;
+}
+.rapid2{
+	margin-left: -950px;
+	width:75px;
+	height: 75px;
+	position: absolute;
+}
+.f2{
+	margin-left: -800px;
+	margin-top: 70px;
+	width:75px;
+	height: 75px;
+	position: absolute;
+	font-size:16px;
+	color: black;
+}
+.rapid3{
+	margin-left: -825px;
+	width:75px;
+	height: 75px;
+	position: absolute;
+}
+.f3{
+	margin-left: -675px;
+	margin-top: 70px;
+	width:75px;
+	height: 75px;
+	position: absolute;
+	font-size:16px;
+	color: black;
+}
+.rapid4{
+	margin-left: -700px;
+	width:75px;
+	height: 75px;
+	position: absolute;
+}
+.f4{
+	margin-left: -550px;
+	margin-top: 70px;
+	width:75px;
+	height: 75px;
+	position: absolute;
+	font-size:16px;
+	color: black;
+}
